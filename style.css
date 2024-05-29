@@ -1,0 +1,124 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;    
+}
+.main-content{
+    background-color: rgba(0, 0, 0, 0.459);
+}
+.image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 125px;
+}
+.firstheading{
+    font-size: 4em;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.secondheading{
+    font-size: 1.38em;
+    justify-content: center;
+    text-align: center;
+}
+.thirdheading{
+    font-size: 1.35em;
+    justify-content: center;
+    text-align: center;
+}
+.content{
+    background-color: rgb(197, 8, 8);
+}
+.main-content{
+    display: grid;
+
+}
+h3{
+    color: blue;
+}
+.topic{
+    box-sizing: border-box;
+    border: none;
+    border-radius: 10px;
+    background-color: aqua;
+    margin: 10px;
+    padding: 10px;
+}
+
+.comment-box {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="button"] {
+    background-color: #ff0000;
+    margin-left: 10px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+#comments-section {
+    margin-top: 30px;
+}
+
+#comments-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#comments-list li {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+}
+@media (max-width:426px){
+    .firstheading{
+        font-size: 2.5em;
+    }
+    .secondheading{
+        font-size: 1em;
+    }
+    .thirdheading{
+        font-size: 1em;
+    }
+}
+
+
+
+
+
